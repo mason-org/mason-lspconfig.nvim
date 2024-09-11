@@ -40,6 +40,7 @@ M.lspconfig_to_package = {
     ["cucumber_language_server"] = "cucumber-language-server",
     ["custom_elements_ls"] = "custom-elements-languageserver",
     ["cypher_ls"] = "cypher-language-server",
+    ["daedalus_ls"] = "DaedalusLanguageServer",
     ["dagger"] = "cuelsp",
     ["denols"] = "deno",
     ["dhall_lsp_server"] = "dhall-lsp",
