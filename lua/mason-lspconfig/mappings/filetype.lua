@@ -133,6 +133,7 @@ return {
   mysql = { "sqlls", "sqls" },
   ncl = { "nickel_ls" },
   neomuttrc = { "mutt_ls" },
+  nextflow = { "nextflow_ls" },
   nginx = { "nginx_language_server" },
   nickel = { "nickel_ls" },
   nim = { "nim_langserver", "nimls" },

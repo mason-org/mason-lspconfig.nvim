@@ -117,6 +117,7 @@ M.lspconfig_to_package = {
     ["move_analyzer"] = "move-analyzer",
     ["mutt_ls"] = "mutt-language-server",
     ["neocmake"] = "neocmakelsp",
+    ["nextflow_ls"] = "nextflow-language-server",
     ["nextls"] = "nextls",
     ["nickel_ls"] = "nickel-lang-lsp",
     ["nginx_language_server"] = "nginx-language-server",
