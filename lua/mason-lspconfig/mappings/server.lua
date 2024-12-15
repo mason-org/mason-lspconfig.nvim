@@ -188,6 +188,7 @@ M.lspconfig_to_package = {
     ["svlangserver"] = "svlangserver",
     ["svls"] = "svls",
     ["swift_mesonls"] = "swift-mesonlsp",
+    ["systemd_ls"] = "systemd-language-server",
     ["mesonlsp"] = "mesonlsp",
     ["tailwindcss"] = "tailwindcss-language-server",
     ["taplo"] = "taplo",

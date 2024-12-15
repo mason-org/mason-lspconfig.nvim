@@ -404,6 +404,7 @@ local DEFAULT_SETTINGS = {
 | SystemVerilog | [`svlangserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svlangserver) |
 | SystemVerilog | [`svls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svls) |
 | SystemVerilog | [`verible`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#verible) |
+| systemd | [`systemd_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#systemd_ls) |
 | Teal | [`teal_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#teal_ls) |
 | Terraform | [`terraformls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#terraformls) |
 | Terraform | [`tflint`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tflint) |

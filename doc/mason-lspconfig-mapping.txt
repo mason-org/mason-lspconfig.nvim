@@ -188,6 +188,7 @@ svelte-language-server                    svelte
 svlangserver                              svlangserver
 svls                                      svls
 swift-mesonlsp                            swift_mesonls
+systemd-language-server                   systemd_ls
 tailwindcss-language-server               tailwindcss
 taplo                                     taplo
 teal-language-server                      teal_ls

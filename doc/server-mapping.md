@@ -185,6 +185,7 @@
 | [svlangserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svlangserver) | [svlangserver](https://mason-registry.dev/registry/list#svlangserver) |
 | [svls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svls) | [svls](https://mason-registry.dev/registry/list#svls) |
 | [swift_mesonls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#swift_mesonls) | [swift-mesonlsp](https://mason-registry.dev/registry/list#swift-mesonlsp) |
+| [systemd_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#systemd_ls) | [systemd-language-server](https://mason-registry.dev/registry/list#systemd-language-server) |
 | [tailwindcss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tailwindcss) | [tailwindcss-language-server](https://mason-registry.dev/registry/list#tailwindcss-language-server) |
 | [taplo](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#taplo) | [taplo](https://mason-registry.dev/registry/list#taplo) |
 | [teal_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#teal_ls) | [teal-language-server](https://mason-registry.dev/registry/list#teal-language-server) |
