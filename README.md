@@ -183,6 +183,7 @@ local DEFAULT_SETTINGS = {
 | Azure Pipelines | [`azure_pipelines_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#azure_pipelines_ls) |
 | Bash | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
 | Bash | [`pkgbuild_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pkgbuild_language_server) |
+| bazelrc configuration | [`bazelrc_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bazelrc_lsp) |
 | Beancount | [`beancount`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#beancount) |
 | Bicep | [`bicep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bicep) |
 | Blade | [`stimulus_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#stimulus_ls) |

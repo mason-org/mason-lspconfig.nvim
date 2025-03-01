@@ -14,6 +14,7 @@ return {
   automake = { "autotools_ls" },
   awk = { "awk_ls" },
   bash = { "bashls" },
+  bazelrc = { "bazelrc_lsp" },
   bean = { "beancount" },
   beancount = { "beancount" },
   bib = { "ltex", "texlab" },

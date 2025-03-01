@@ -14,6 +14,7 @@
 | [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://mason-registry.dev/registry/list#azure-pipelines-language-server) |
 | [basedpyright](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#basedpyright) | [basedpyright](https://mason-registry.dev/registry/list#basedpyright) |
 | [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) | [bash-language-server](https://mason-registry.dev/registry/list#bash-language-server) |
+| [bazelrc_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bazelrc_lsp) | [bazelrc-lsp](https://mason-registry.dev/registry/list#bazelrc-lsp) |
 | [beancount](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#beancount) | [beancount-language-server](https://mason-registry.dev/registry/list#beancount-language-server) |
 | [bicep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bicep) | [bicep-lsp](https://mason-registry.dev/registry/list#bicep-lsp) |
 | [biome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#biome) | [biome](https://mason-registry.dev/registry/list#biome) |
