@@ -16,6 +16,7 @@ autotools-language-server                 autotools_ls
 awk-language-server                       awk_ls
 azure-pipelines-language-server           azure_pipelines_ls
 basedpyright                              basedpyright
+bazelrc-lsp                               bazelrc_lsp
 bash-language-server                      bashls
 beancount-language-server                 beancount
 bicep-lsp                                 bicep

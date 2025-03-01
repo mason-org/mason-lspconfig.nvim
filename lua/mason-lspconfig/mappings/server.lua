@@ -17,6 +17,7 @@ M.lspconfig_to_package = {
     ["azure_pipelines_ls"] = "azure-pipelines-language-server",
     ["basedpyright"] = "basedpyright",
     ["bashls"] = "bash-language-server",
+    ["bazelrc_lsp"] = "bazelrc-lsp",
     ["beancount"] = "beancount-language-server",
     ["bicep"] = "bicep-lsp",
     ["biome"] = "biome",
