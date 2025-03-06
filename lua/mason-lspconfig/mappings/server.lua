@@ -159,6 +159,7 @@ M.lspconfig_to_package = {
     ["rubocop"] = "rubocop",
     ["ruby_lsp"] = "ruby-lsp",
     ["ruff"] = "ruff",
+    ["ruff_lsp"] = "ruff-lsp",
     ["rust_analyzer"] = "rust-analyzer",
     ["salt_ls"] = "salt-lsp",
     ["serve_d"] = "serve-d",
