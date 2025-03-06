@@ -16,7 +16,7 @@
     <code>:help mason-lspconfig.nvim</code>
 </p>
 <p align="center">
-    <sup>Latest version: v1.31.0</sup> <!-- x-release-please-version -->
+    <sup>Latest version: v1.32.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
@@ -208,6 +208,7 @@ local DEFAULT_SETTINGS = {
 | CodeQL | [`codeqlls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#codeqlls) |
 | Coq | [`coq_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#coq_lsp) |
 | Crystal | [`crystalline`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#crystalline) |
+| Csh | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
 | CSS | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | CSS | [`css_variables`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#css_variables) |
 | CSS | [`cssls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#cssls) |
@@ -262,6 +263,7 @@ local DEFAULT_SETTINGS = {
 | HTML | [`html`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#html) |
 | HTML | [`lwc_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lwc_ls) |
 | HTML | [`stimulus_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#stimulus_ls) |
+| HTML | [`superhtml`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#superhtml) |
 | HTML | [`templ`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#templ) |
 | HTML | [`twiggy_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#twiggy_language_server) |
 | HTMX | [`htmx`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#htmx) |
@@ -293,6 +295,7 @@ local DEFAULT_SETTINGS = {
 | KCL | [`kcl`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kcl) |
 | Kotlin | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | Kotlin | [`kotlin_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kotlin_language_server) |
+| Ksh | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
 | LaTeX | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ltex) |
 | LaTeX | [`texlab`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#texlab) |
 | LaTeX | [`textlsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#textlsp) |
@@ -385,6 +388,7 @@ local DEFAULT_SETTINGS = {
 | SCSS | [`css_variables`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#css_variables) |
 | SCSS | [`cssls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#cssls) |
 | SCSS | [`somesass_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#somesass_ls) |
+| Sh | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
 | Slint | [`slint_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#slint_lsp) |
 | Smithy | [`smithy_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#smithy_ls) |
 | Snakeskin | [`snakeskin_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#snakeskin_ls) |
@@ -402,6 +406,7 @@ local DEFAULT_SETTINGS = {
 | Starlark | [`starlark_rust`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#starlark_rust) |
 | Starlark | [`starpls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#starpls) |
 | Stylelint | [`stylelint_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#stylelint_lsp) |
+| SuperHTML | [`superhtml`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#superhtml) |
 | Svelte | [`svelte`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svelte) |
 | SystemVerilog | [`hdl_checker`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#hdl_checker) |
 | SystemVerilog | [`svlangserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#svlangserver) |
@@ -448,6 +453,7 @@ local DEFAULT_SETTINGS = {
 | YAML | [`spectral`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#spectral) |
 | YAML | [`yamlls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#yamlls) |
 | Zig | [`zls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#zls) |
+| Zsh | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
 | - | [`autotools_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#autotools_ls) |
 | - | [`custom_elements_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#custom_elements_ls) |
 | - | [`diagnosticls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#diagnosticls) |

@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.32.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.31.0...v1.32.0) (2025-02-14)
+
+
+### Features
+
+* add ginko_ls support ([#490](https://github.com/williamboman/mason-lspconfig.nvim/issues/490)) ([#496](https://github.com/williamboman/mason-lspconfig.nvim/issues/496)) ([2daa892](https://github.com/williamboman/mason-lspconfig.nvim/commit/2daa8921b7afdcfa47419a21ea343c3df6d74fa0))
+* add superhtml ([#440](https://github.com/williamboman/mason-lspconfig.nvim/issues/440)) ([805c31e](https://github.com/williamboman/mason-lspconfig.nvim/commit/805c31ec6bfb557975143712ecff6956d3227141))
+* **kcl:** add kcl support ([#461](https://github.com/williamboman/mason-lspconfig.nvim/issues/461)) ([28421c5](https://github.com/williamboman/mason-lspconfig.nvim/commit/28421c5d52aadf5800bca20ad935819d414c9568))
+
+
+### Bug Fixes
+
+* don't override psalm cmd ([#477](https://github.com/williamboman/mason-lspconfig.nvim/issues/477)) ([7446f47](https://github.com/williamboman/mason-lspconfig.nvim/commit/7446f47b3dfb7df801f31a6f6783c2ad119a6935))
+* fix importing server config definitions from lspconfig ([#468](https://github.com/williamboman/mason-lspconfig.nvim/issues/468)) ([87638e7](https://github.com/williamboman/mason-lspconfig.nvim/commit/87638e71c83100980f932714ea62ea82a972c95b))
+* remove deprecated `bufls`, `ruff_lsp`, and `typst_lsp` mappings ([#485](https://github.com/williamboman/mason-lspconfig.nvim/issues/485)) ([057ddd1](https://github.com/williamboman/mason-lspconfig.nvim/commit/057ddd1d02f6a59ea2d2bd78edd9f98757b465e2))
+* update required nvim version to &gt;= 0.9.0 ([#478](https://github.com/williamboman/mason-lspconfig.nvim/issues/478)) ([b950110](https://github.com/williamboman/mason-lspconfig.nvim/commit/b9501106148f434a7ce528bca65725b60ea3e5d3))
+
 ## [1.31.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.30.0...v1.31.0) (2024-09-08)
 
 

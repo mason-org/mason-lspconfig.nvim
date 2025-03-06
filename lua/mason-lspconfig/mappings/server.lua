@@ -206,6 +206,7 @@ M.lspconfig_to_package = {
     ["twiggy_language_server"] = "twiggy-language-server",
     ["typos_lsp"] = "typos-lsp",
     ["tinymist"] = "tinymist",
+    ["superhtml"] = "superhtml",
     ["unocss"] = "unocss-language-server",
     ["v_analyzer"] = "v-analyzer",
     ["vacuum"] = "vacuum",

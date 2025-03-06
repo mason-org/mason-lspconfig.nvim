@@ -186,6 +186,7 @@ starpls                                   starpls
 steep                                     steep
 stimulus-language-server                  stimulus_ls
 stylelint-lsp                             stylelint_lsp
+superhtml                                 superhtml
 svelte-language-server                    svelte
 svlangserver                              svlangserver
 svls                                      svls
