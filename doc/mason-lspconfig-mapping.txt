@@ -138,6 +138,7 @@ pkgbuild-language-server                  pkgbuild_language_server
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
 prosemd-lsp                               prosemd_lsp
+protols                                   protols
 psalm                                     psalm
 puppet-editor-services                    puppet
 purescript-language-server                purescriptls

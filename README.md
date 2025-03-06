@@ -351,6 +351,7 @@ local DEFAULT_SETTINGS = {
 | Prisma | [`prismals`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#prismals) |
 | Protobuf | [`buf_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#buf_ls) |
 | Protobuf | [`pbls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pbls) |
+| Protobuf | [`protols`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#protols) |
 | Puppet | [`puppet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#puppet) |
 | PureScript | [`purescriptls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#purescriptls) |
 | Python | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |

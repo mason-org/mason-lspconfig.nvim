@@ -135,6 +135,7 @@
 | [powershell_es](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#powershell_es) | [powershell-editor-services](https://mason-registry.dev/registry/list#powershell-editor-services) |
 | [prismals](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#prismals) | [prisma-language-server](https://mason-registry.dev/registry/list#prisma-language-server) |
 | [prosemd_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#prosemd_lsp) | [prosemd-lsp](https://mason-registry.dev/registry/list#prosemd-lsp) |
+| [protols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#protols) | [protols](https://mason-registry.dev/registry/list#protols) |
 | [psalm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#psalm) | [psalm](https://mason-registry.dev/registry/list#psalm) |
 | [puppet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#puppet) | [puppet-editor-services](https://mason-registry.dev/registry/list#puppet-editor-services) |
 | [purescriptls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#purescriptls) | [purescript-language-server](https://mason-registry.dev/registry/list#purescript-language-server) |
