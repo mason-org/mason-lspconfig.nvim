@@ -239,7 +239,7 @@ return {
   xsd = { "lemminx" },
   xsl = { "lemminx" },
   xslt = { "lemminx" },
-  yaml = { "azure_pipelines_ls", "hydra_lsp", "snyk_ls", "spectral", "yamlls" },
+  yaml = { "azure_pipelines_ls", "hydra_lsp", "snyk_ls", "spectral", "yamlls", "gh_actions_ls" },
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
   ["yaml.gitlab"] = { "gitlab_ci_ls", "yamlls" },

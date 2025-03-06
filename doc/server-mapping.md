@@ -65,6 +65,7 @@
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#foam_ls) | [foam-language-server](https://mason-registry.dev/registry/list#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fortls) | [fortls](https://mason-registry.dev/registry/list#fortls) |
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fsautocomplete) | [fsautocomplete](https://mason-registry.dev/registry/list#fsautocomplete) |
+| [gh_actions_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#gh_actions_ls) | [gh-actions-language-server](https://mason-registry.dev/registry/list#gh-actions-language-server) |
 | [ginko_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ginko_ls) | [ginko_ls](https://mason-registry.dev/registry/list#ginko_ls) |
 | [gitlab_ci_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#gitlab_ci_ls) | [gitlab-ci-ls](https://mason-registry.dev/registry/list#gitlab-ci-ls) |
 | [glint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#glint) | [glint](https://mason-registry.dev/registry/list#glint) |

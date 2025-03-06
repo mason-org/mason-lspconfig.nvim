@@ -68,6 +68,7 @@ flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
 fsautocomplete                            fsautocomplete
+gh-actions-language-server                gh_actions_ls
 ginko_ls                                  ginko_ls
 gitlab-ci-ls                              gitlab_ci_ls
 glint                                     glint

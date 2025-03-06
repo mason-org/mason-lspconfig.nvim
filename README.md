@@ -244,6 +244,7 @@ local DEFAULT_SETTINGS = {
 | Fennel | [`fennel_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fennel_ls) |
 | Flux | [`flux_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#flux_lsp) |
 | Fortran | [`fortls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fortls) |
+| GitHub Actions | [`gh_actions_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.txt#gh_actions_ls) |
 | Glimmer | [`glint`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#glint) |
 | GLSL | [`glslls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#glslls) |
 | Go | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
