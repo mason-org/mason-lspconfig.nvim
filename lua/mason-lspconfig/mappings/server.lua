@@ -64,6 +64,7 @@ M.lspconfig_to_package = {
     ["facility_language_server"] = "facility-language-server",
     ["fennel_language_server"] = "fennel-language-server",
     ["fennel_ls"] = "fennel-ls",
+    ["fish_lsp"] = "fish-lsp",
     ["flux_lsp"] = "flux-lsp",
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",
