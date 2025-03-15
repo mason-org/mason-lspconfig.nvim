@@ -242,6 +242,7 @@ local DEFAULT_SETTINGS = {
 | Facility Service Definition | [`facility_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#facility_language_server) |
 | Fennel | [`fennel_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fennel_language_server) |
 | Fennel | [`fennel_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fennel_ls) |
+| Fish | [`fish_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fish_lsp) |
 | Flux | [`flux_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#flux_lsp) |
 | Fortran | [`fortls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fortls) |
 | Glimmer | [`glint`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#glint) |

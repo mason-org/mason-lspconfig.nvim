@@ -64,6 +64,7 @@ eslint-lsp                                eslint
 facility-language-server                  facility_language_server
 fennel-language-server                    fennel_language_server
 fennel-ls                                 fennel_ls
+fish-lsp                                  fish_lsp
 flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
