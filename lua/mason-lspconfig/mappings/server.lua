@@ -138,6 +138,7 @@ M.lspconfig_to_package = {
     ["powershell_es"] = "powershell-editor-services",
     ["prismals"] = "prisma-language-server",
     ["prosemd_lsp"] = "prosemd-lsp",
+    ["protols"] = "protols",
     ["psalm"] = "psalm",
     ["puppet"] = "puppet-editor-services",
     ["purescriptls"] = "purescript-language-server",
