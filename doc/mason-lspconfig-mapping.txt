@@ -135,6 +135,7 @@ pest-language-server                      pest_ls
 phpactor                                  phpactor
 pico8-ls                                  pico8_ls
 pkgbuild-language-server                  pkgbuild_language_server
+postgrestools                             postgres_lsp
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
 prosemd-lsp                               prosemd_lsp

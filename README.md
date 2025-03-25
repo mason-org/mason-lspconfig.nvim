@@ -400,6 +400,7 @@ local DEFAULT_SETTINGS = {
 | Sphinx | [`esbonio`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#esbonio) |
 | SQL | [`sqlls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sqlls) |
 | SQL | [`sqls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sqls) |
+| SQL | [`postgres_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#postgres_lsp) |
 | Standard ML | [`millet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#millet) |
 | Starlark | [`bzl`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bzl) |
 | Starlark | [`starlark_rust`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#starlark_rust) |
