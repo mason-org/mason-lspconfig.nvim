@@ -118,6 +118,7 @@ motoko-lsp                                motoko_lsp
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
+nextflow-language-server                  nextflow_ls
 nextls                                    nextls
 nginx-language-server                     nginx_language_server
 nickel-lang-lsp                           nickel_ls

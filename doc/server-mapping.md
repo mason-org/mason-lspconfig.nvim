@@ -115,6 +115,7 @@
 | [move_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#move_analyzer) | [move-analyzer](https://mason-registry.dev/registry/list#move-analyzer) |
 | [mutt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#mutt_ls) | [mutt-language-server](https://mason-registry.dev/registry/list#mutt-language-server) |
 | [neocmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#neocmake) | [neocmakelsp](https://mason-registry.dev/registry/list#neocmakelsp) |
+| [nextflow_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nextflow_ls) | [nextflow-language-server](https://mason-registry.dev/registry/list#nextflow-language-server) |
 | [nextls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nextls) | [nextls](https://mason-registry.dev/registry/list#nextls) |
 | [nginx_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nginx_language_server) | [nginx-language-server](https://mason-registry.dev/registry/list#nginx-language-server) |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nickel_ls) | [nickel-lang-lsp](https://mason-registry.dev/registry/list#nickel-lang-lsp) |

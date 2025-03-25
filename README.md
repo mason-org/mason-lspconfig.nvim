@@ -324,6 +324,7 @@ local DEFAULT_SETTINGS = {
 | Metamath Zero | [`mm0_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#mm0_ls) |
 | Motoko | [`motoko_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#motoko_lsp) |
 | Move | [`move_analyzer`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#move_analyzer) |
+| Nextflow | [`nextflow_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nextflow_ls) |
 | Nginx | [`nginx_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nginx_language_server) |
 | Nickel | [`nickel_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nickel_ls) |
 | Nim | [`nim_langserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#nim_langserver) |
