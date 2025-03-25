@@ -188,7 +188,7 @@ return {
   smithy = { "smithy_ls" },
   sml = { "millet" },
   solidity = { "solang", "solc", "solidity", "solidity_ls", "solidity_ls_nomicfoundation" },
-  sql = { "sqlls", "sqls", "postgres_lsp" },
+  sql = { "sqlls", "sqls" },
   ss = { "snakeskin_ls" },
   star = { "starlark_rust" },
   stylus = { "tailwindcss", "unocss" },
