@@ -41,6 +41,7 @@ cucumber-language-server                  cucumber_language_server
 custom-elements-languageserver            custom_elements_ls
 cypher-language-server                    cypher_ls
 cuelsp                                    dagger
+DaedalusLanguageServer                    daedalus_ls
 deno                                      denols
 dhall-lsp                                 dhall_lsp_server
 diagnostic-languageserver                 diagnosticls

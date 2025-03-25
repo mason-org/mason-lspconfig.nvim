@@ -218,6 +218,7 @@ local DEFAULT_SETTINGS = {
 | Cucumber | [`cucumber_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#cucumber_language_server) |
 | Cue | [`dagger`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#dagger) |
 | Cypher | [`cypher_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#cypher_ls) |
+| Daedalus | [`daedalus_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#daedalus_ls)
 | Dart | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | Dhall | [`dhall_lsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#dhall_lsp_server) |
 | Django | [`jinja_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jinja_lsp) |
