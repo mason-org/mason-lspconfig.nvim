@@ -67,6 +67,7 @@ fennel-ls                                 fennel_ls
 flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
+fountain-lsp-server                       fountain-lsp-server
 fsautocomplete                            fsautocomplete
 ginko_ls                                  ginko_ls
 gitlab-ci-ls                              gitlab_ci_ls

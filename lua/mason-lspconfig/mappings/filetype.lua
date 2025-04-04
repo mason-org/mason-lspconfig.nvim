@@ -247,4 +247,4 @@ return {
   yml = { "spectral" },
   zig = { "zls" },
   zir = { "zls" }
-}
+}    fountain = { "fountain-lsp-server" },

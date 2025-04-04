@@ -64,6 +64,7 @@
 | [flux_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#flux_lsp) | [flux-lsp](https://mason-registry.dev/registry/list#flux-lsp) |
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#foam_ls) | [foam-language-server](https://mason-registry.dev/registry/list#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fortls) | [fortls](https://mason-registry.dev/registry/list#fortls) |
+| [fountain-lsp-server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fountain-lsp-server) | [fountain-lsp-server](https://mason-registry.dev/registry/list#fountain-lsp-server) |
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#fsautocomplete) | [fsautocomplete](https://mason-registry.dev/registry/list#fsautocomplete) |
 | [ginko_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ginko_ls) | [ginko_ls](https://mason-registry.dev/registry/list#ginko_ls) |
 | [gitlab_ci_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#gitlab_ci_ls) | [gitlab-ci-ls](https://mason-registry.dev/registry/list#gitlab-ci-ls) |
