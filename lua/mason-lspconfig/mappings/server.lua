@@ -67,6 +67,7 @@ M.lspconfig_to_package = {
     ["flux_lsp"] = "flux-lsp",
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",
+    ["fountain-lsp-server"] = "fountain-lsp-server",
     ["fsautocomplete"] = "fsautocomplete",
     ["gitlab_ci_ls"] = "gitlab-ci-ls",
     ["ginko_ls"] = "ginko_ls",
