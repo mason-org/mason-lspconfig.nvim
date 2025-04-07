@@ -347,6 +347,7 @@ local DEFAULT_SETTINGS = {
 | PHP | [`psalm`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#psalm) |
 | PHP | [`stimulus_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#stimulus_ls) |
 | PICO-8 | [`pico8_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pico8_ls) |
+| Postgres | [`postgres_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#postgres_lsp) |
 | PowerShell | [`powershell_es`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#powershell_es) |
 | Prisma | [`prismals`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#prismals) |
 | Protobuf | [`buf_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#buf_ls) |
@@ -398,6 +399,7 @@ local DEFAULT_SETTINGS = {
 | Solidity | [`solidity_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#solidity_ls) |
 | Solidity | [`solidity_ls_nomicfoundation`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#solidity_ls_nomicfoundation) |
 | Sphinx | [`esbonio`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#esbonio) |
+| SQL | [`postgres_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#postgres_lsp) |
 | SQL | [`sqlls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sqlls) |
 | SQL | [`sqls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sqls) |
 | Standard ML | [`millet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#millet) |
