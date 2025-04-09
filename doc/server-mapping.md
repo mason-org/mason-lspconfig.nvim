@@ -101,6 +101,7 @@
 | [lemminx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lemminx) | [lemminx](https://mason-registry.dev/registry/list#lemminx) |
 | [lexical](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lexical) | [lexical](https://mason-registry.dev/registry/list#lexical) |
 | [ltex](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ltex) | [ltex-ls](https://mason-registry.dev/registry/list#ltex-ls) |
+| [ltex_plus](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ltex_plus) | [ltex-ls-plus](https://mason-registry.dev/registry/list#ltex-ls-plus) |
 | [lua_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lua_ls) | [lua-language-server](https://mason-registry.dev/registry/list#lua-language-server) |
 | [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#luau_lsp) | [luau-lsp](https://mason-registry.dev/registry/list#luau-lsp) |
 | [lwc_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lwc_ls) | [lwc-language-server](https://mason-registry.dev/registry/list#lwc-language-server) |

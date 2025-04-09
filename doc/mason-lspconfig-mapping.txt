@@ -104,6 +104,7 @@ lelwel                                    lelwel_ls
 lemminx                                   lemminx
 lexical                                   lexical
 ltex-ls                                   ltex
+ltex-ls-plus                              ltex_plus
 lua-language-server                       lua_ls
 luau-lsp                                  luau_lsp
 lwc-language-server                       lwc_ls
