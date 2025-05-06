@@ -1,12 +1,9 @@
-local Pkg = require "mason-core.package"
-
-return Pkg:new {
-    schema = "registry+v1",
+return {
     name = "dummy",
     description = [[This is a dummy package.]],
     licenses = {},
-    categories = { Pkg.Cat.LSP },
-    languages = { Pkg.Lang.DummyLang },
+    categories = { "LSP" },
+    languages = { "DummyLang" },
     homepage = "https://example.com",
     source = {
         id = "pkg:mason/dummy@1.0.0",

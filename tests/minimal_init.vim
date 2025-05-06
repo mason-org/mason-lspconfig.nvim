@@ -33,6 +33,8 @@ require("mason").setup {
         "lua:dummy-registry.index"
     }
 }
+
+require("mason-registry").refresh()
 EOF
 
 function! RunTests() abort
