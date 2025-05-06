@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.0.0-rc.1](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.0.0-rc.1...v3.0.0-rc.1) (2025-05-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove handler functionality, add automatic enable feature
+* remove `automatic_installation` setting
+
+### Features
+
+* add more capabilities to `automatic_enable` ([963df05](https://github.com/mason-org/mason-lspconfig.nvim/commit/963df050ea3f65005c8ee047a4ab5d76493bf5a8))
+
+
+### Bug Fixes
+
+* **command:** only accept lspconfig names and filetypes in :LspInstall ([c1a3a6c](https://github.com/mason-org/mason-lspconfig.nvim/commit/c1a3a6c01777ff5c5c5d91c80f5092621d738a2f))
+* enable servers outside of registry.refresh() and vim.schedule() callbacks ([6b2ba82](https://github.com/mason-org/mason-lspconfig.nvim/commit/6b2ba82e34d393e85374148a2b3a2009a41269d4))
+* fix module imports ([0398eb9](https://github.com/mason-org/mason-lspconfig.nvim/commit/0398eb953890ec7d36cbeb90b3f711522d7482d1))
+
+
+### Code Refactoring
+
+* remove `automatic_installation` setting ([5c14246](https://github.com/mason-org/mason-lspconfig.nvim/commit/5c142464ea29ceca3b4d77d2c80b9e8e3fca02d9))
+* remove handler functionality, add automatic enable feature ([80f2cd7](https://github.com/mason-org/mason-lspconfig.nvim/commit/80f2cd7734ff21da4cf1489c9695e440cdcd139f))
+
 ## [2.0.0](https://github.com/williamboman/mason.nvim/compare/v1.32.0...v2.0.0) (2025-05-06)
 
 This release adds support for the new native LSP configuration mechanism (see `vim.lsp.config`) added in Neovim v0.11.
