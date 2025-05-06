@@ -8,7 +8,7 @@
 
 <p align="center">
     <code>mason-lspconfig</code> bridges <a
-    href="https://github.com/williamboman/mason.nvim"><code>mason.nvim</code></a> with the <a
+    href="https://github.com/mason-org/mason.nvim"><code>mason.nvim</code></a> with the <a
     href="https://github.com/neovim/nvim-lspconfig"><code>lspconfig</code></a> plugin - making it easier to use both
     plugins together.
 </p>
@@ -61,8 +61,8 @@ This plugin's main responsibilities are to:
 
 ```lua
 {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
 }
 ```
@@ -70,8 +70,8 @@ This plugin's main responsibilities are to:
 ## vim-plug
 
 ```vim
-Plug 'williamboman/mason.nvim'
-Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'mason-org/mason.nvim'
+Plug 'mason-org/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 ```
 
