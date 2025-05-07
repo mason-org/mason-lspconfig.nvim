@@ -175,3 +175,94 @@ local DEFAULT_SETTINGS = {
     automatic_enable = true,
 }
 ```
+
+## Example configuration
+
+This example for [lazy.nvim](https://github.com/folke/lazy.nvim) sets up almost all you need to make the LSP work in neovim.
+
+It adds nvim-lspconfig, mason and sets up lua lsp so you can use lsp to edit neovim lua files.
+
+I also sets up some convenient keybindings.
+
+first, save as lua/plugins/lsp.lua
+
+```lua
+return {
+  {
+    "mason-org/mason-lspconfig.nvim",
+    dependencies = {
+      "mason-org/mason.nvim",
+      "neovim/nvim-lspconfig",
+    },
+    ensure_installed = {
+      -- auto install lua lsp to use lsp in neovim config
+      "lua_ls",
+    },
+    config = function()
+      -- setup mason
+      require("mason").setup()
+
+      -- Set LSP keymaps on LSP attach event
+      vim.api.nvim_create_autocmd("LspAttach", {
+        desc = "Set LSP keymaps",
+        callback = function(event)
+          -- Default keymaps See :help lsp-defaults
+          -- "grn" is mapped in Normal mode to vim.lsp.buf.rename()
+          -- "gra" is mapped in Normal and Visual mode to vim.lsp.buf.code_action()
+          -- "grr" is mapped in Normal mode to vim.lsp.buf.references()
+          -- "gri" is mapped in Normal mode to vim.lsp.buf.implementation()
+          -- "gO" is mapped in Normal mode to vim.lsp.buf.document_symbol()
+          -- CTRL-S is mapped in Insert mode to vim.lsp.buf.signature_help()
+
+          local opts = { noremap = true, silent = true, buffer = event.buf }
+          -- Hover information
+          vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
+          -- Jump to definition
+          vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
+          -- Jump to declaration
+          vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
+          -- Jump to type definition
+          vim.keymap.set("n", "go", vim.lsp.buf.type_definition, opts)
+          -- Show diagnostics in floating window
+          vim.keymap.set("n", "gl", vim.diagnostic.open_float, opts)
+          -- Move to previous diagnostic
+          vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, opts)
+          -- Move to next diagnostic
+          vim.keymap.set("n", "]d", vim.diagnostic.goto_next, opts)
+        end,
+      })
+
+      -- finally, setup other lsp servers
+      require("mason-lspconfig").setup()
+    end,
+  },
+}
+```
+
+then add this to `lsp/lua_ls.lua` so nvim recognizes "vim" as a global
+
+```lua
+-- special lua_ls config so vim is registered as global and don't show warnings
+return {
+  capabilities = require("cmp_nvim_lsp").default_capabilities(),
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { "vim" },
+      },
+      workspace = {
+        library = vim.api.nvim_get_runtime_file("", true),
+        checkThirdParty = false,
+      },
+      telemetry = {
+        enable = false,
+      },
+    },
+  },
+}
+```
+
+
+That's it!
+
+add new LSP with command `:Mason` [read more](https://github.com/mason-org/mason.nvim)
