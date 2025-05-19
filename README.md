@@ -4,7 +4,7 @@
 [![GitHub CI](https://github.com/mason-org/mason-lspconfig.nvim/workflows/Tests/badge.svg)](https://github.com/mason-org/mason-lspconfig.nvim/actions?query=workflow%3ATests+branch%3Amain+event%3Apush)
 [![Sponsors](https://img.shields.io/github/sponsors/mason-org?style=flat-square)](https://github.com/sponsors/mason-org)
 
-# mason-lspconfig.nvim
+<h1 align="center">mason-lspconfig.nvim</h1>
 
 <p align="center">
     <code>mason-lspconfig</code> bridges <a
@@ -19,18 +19,18 @@
     <sup>Latest version: v2.0.0</sup> <!-- x-release-please-version -->
 </p>
 
-# Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Setup](#setup)
+- [Installation & Usage](#installation--usage)
+    - [Recommended setup for `lazy.nvim`](#recommended-setup-for-lazynvim)
 - [Automatically enable installed servers](#automatically-enable-installed-servers)
 - [Commands](#commands)
 - [Configuration](#configuration)
   - [Default configuration](#default-configuration)
 
-# Introduction
+## Introduction
 
 > `:h mason-lspconfig-introduction`
 
@@ -47,7 +47,7 @@ This plugin's main responsibilities are to:
 > ([`:h vim.lsp.enable()`](https://neovim.io/doc/user/lsp.html#vim.lsp.enable())) or have access to the `:LspInstall`
 > command.
 
-# Requirements
+## Requirements
 
 > `:h mason-lspconfig-requirements`
 
@@ -55,36 +55,38 @@ This plugin's main responsibilities are to:
 - `mason.nvim >= 2.0.0`
 - `nvim-lspconfig >= 2.0.0`
 
-# Installation
-
-## [lazy.nvim](https://github.com/folke/lazy.nvim)
-
-```lua
-{
-    "mason-org/mason.nvim",
-    "mason-org/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
-}
-```
-
-## vim-plug
-
-```vim
-Plug 'mason-org/mason.nvim'
-Plug 'mason-org/mason-lspconfig.nvim'
-Plug 'neovim/nvim-lspconfig'
-```
-
-# Setup
+## Installation & Usage
 
 > `:h mason-lspconfig-quickstart`
+
+Install using your plugin manager of choice. **Setup is required**:
+
+```lua
+require("mason-lspconfig").setup()
+```
 
 It's important that you set up `mason.nvim` _and_ have `nvim-lspconfig` available in [`:h
 runtimepath`](https://neovim.io/doc/user/options.html#'runtimepath') before setting up `mason-lspconfig.nvim`.
 
 Refer to the [Configuration](#configuration) section for information about which settings are available.
 
-# Automatically enable installed servers
+### Recommended setup for `lazy.nvim`
+
+The following is the recommended setup when using `lazy.nvim`. It will set up the plugin for you, meaning **you don't have
+to call `require("mason-lspconfig").setup()` yourself**.
+
+```lua
+{
+    "mason-org/mason-lspconfig.nvim",
+    opts = {},
+    dependencies = {
+        { "mason-org/mason.nvim", opts = {} },
+        "neovim/nvim-lspconfig",
+    },
+}
+```
+
+## Automatically enable installed servers
 
 `mason-lspconfig.nvim` will automatically enable (`vim.lsp.enable()`) installed servers for you by default.
 
@@ -124,7 +126,7 @@ require("mason-lspconfig").setup {
 > This will only enable servers that are installed via Mason. It will not recognize servers installed elsewhere on your
 > system.
 
-# Commands
+## Commands
 
 > `:h mason-lspconfig-commands`
 
@@ -132,7 +134,7 @@ require("mason-lspconfig").setup {
   server based on the current buffer's `&filetype`.
 - `:LspUninstall <server> ...`: Uninstalls the provided servers.
 
-# Configuration
+## Configuration
 
 > `:h mason-lspconfig-settings`
 
@@ -147,7 +149,23 @@ require("mason-lspconfig").setup {
 }
 ```
 
-## Default configuration
+### Configuration using `lazy.nvim`
+
+```lua
+{
+    "mason-org/mason-lspconfig.nvim",
+    opts = {
+        ensure_installed = { "lua_ls", "rust_analyzer" },
+    },
+    dependencies = {
+        { "mason-org/mason.nvim", opts = {} },
+        "neovim/nvim-lspconfig",
+    },
+}
+```
+
+
+### Default configuration
 
 ```lua
 local DEFAULT_SETTINGS = {

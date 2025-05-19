@@ -48,11 +48,10 @@ Refer to |mason-lspconfig-settings| for available settings.
 -----------------
 Setting up servers
 
-Next, you're ready to set up the servers you want to use. Refer to lspconfig's
-documentation |lspconfig-quickstart| for more information on how to do so!
+`mason-lspconfig.nvim` will automatically enable (|vim.lsp.enable()|)
+installed servers for you by default, see |mason-automatic-enable|.
 
-`mason-lspconfig.nvim` will automatically enable (|vim.lsp.enable()|) installed
-servers for you by default, see |mason-automatic-enable|.
+Refer to |lsp-quickstart| for information on how to configure servers.
 
 -----------------
 Installation of servers
