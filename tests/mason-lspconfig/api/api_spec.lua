@@ -1,4 +1,7 @@
+local stub = require "luassert.stub"
+
 local _ = require "mason-core.functional"
+local mappings = require "mason-lspconfig.mappings"
 local mason_lspconfig = require "mason-lspconfig"
 
 describe("mason-lspconfig API", function()
@@ -16,6 +19,10 @@ describe("mason-lspconfig API", function()
     end)
 
     it("should return all available servers for given filetype", function()
+        stub(mappings, "get_filetype_map", {
+            ["dummylang"] = { "dummylsp" },
+        })
+
         assert.same(
             { "dummylsp" },
             _.sort_by(
@@ -28,11 +35,9 @@ describe("mason-lspconfig API", function()
     end)
 
     it("should return all available servers for given filetypes", function()
-        vim.lsp.config("dummylsp", {
-            filetypes = { "dummylang" },
-        })
-        vim.lsp.config("dummy2lsp", {
-            filetypes = { "madeuplang" },
+        stub(mappings, "get_filetype_map", {
+            ["dummylang"] = { "dummylsp" },
+            ["madeuplang"] = { "dummy2lsp" },
         })
         assert.same(
             { "dummy2lsp", "dummylsp" },

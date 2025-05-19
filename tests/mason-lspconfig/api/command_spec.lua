@@ -4,6 +4,7 @@ local stub = require "luassert.stub"
 
 local Pkg = require "mason-core.package"
 local api = require "mason-lspconfig.api.command"
+local mappings = require "mason-lspconfig.mappings"
 local registry = require "mason-registry"
 
 describe(":LspInstall", function()
@@ -23,6 +24,9 @@ describe(":LspInstall", function()
             local dummy = registry.get_package "dummy"
             spy.on(Pkg, "install")
             stub(vim.ui, "select")
+            stub(mappings, "get_filetype_map", {
+                ["dummylang"] = { "dummylsp" },
+            })
             vim.ui.select.invokes(function(items, opts, callback)
                 callback "dummylsp"
             end)
