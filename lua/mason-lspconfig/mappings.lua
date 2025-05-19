@@ -20,22 +20,7 @@ function M.get_mason_map()
 end
 
 function M.get_filetype_map()
-    local server_names = vim.tbl_keys(M.get_mason_map().lspconfig_to_package)
-
-    ---@type table<string, string[]>
-    local filetype_map = {}
-    for _, server_name in ipairs(server_names) do
-        local filetypes = vim.tbl_get(vim.lsp.config, server_name, "filetypes")
-        if filetypes then
-            for _, filetype in ipairs(filetypes) do
-                if not filetype_map[filetype] then
-                    filetype_map[filetype] = {}
-                end
-                table.insert(filetype_map[filetype], server_name)
-            end
-        end
-    end
-    return filetype_map
+    return require "mason-lspconfig.filetype_mappings"
 end
 
 function M.get_all()
