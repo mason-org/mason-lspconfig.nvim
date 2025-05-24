@@ -7,10 +7,12 @@ local M = {}
 local function check_and_notify_bad_setup_order()
     local mason_ok, mason = pcall(require, "mason")
     local is_bad_order = not mason_ok or mason.has_setup == false
-    local impacts_functionality = not mason_ok or #settings.current.ensure_installed > 0
+    local impacts_functionality = not mason_ok
+        or #settings.current.ensure_installed > 0
+        or settings.current.automatic_enable ~= false
     if is_bad_order and impacts_functionality then
         require "mason-lspconfig.notify"(
-            "mason.nvim has not been set up. Make sure to set up 'mason' before 'mason-lspconfig'. :h mason-lspconfig-quickstart",
+            "mason.nvim has not been set up. Make sure to set up mason.nvim before mason-lspconfig.nvim. See :h mason-lspconfig-quickstart",
             vim.log.levels.WARN
         )
     end
