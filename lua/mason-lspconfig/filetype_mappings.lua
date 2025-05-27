@@ -121,6 +121,7 @@ return {
   markdown = { "dprint", "grammarly", "harper_ls", "htmx", "ltex", "ltex_plus", "markdown_oxide", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "unocss", "vale_ls", "zk" },
   ["markdown.mdx"] = { "marksman" },
   matlab = { "matlab_ls" },
+  mcfunction = { "spyglassmc_language_server" },
   mdx = { "htmx", "ltex_plus", "mdx_analyzer", "tailwindcss" },
   menhir = { "ocamllsp" },
   meson = { "mesonlsp", "swift_mesonls" },
