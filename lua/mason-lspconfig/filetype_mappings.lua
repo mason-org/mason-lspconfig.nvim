@@ -246,6 +246,7 @@ return {
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
   ["yaml.gitlab"] = { "gitlab_ci_ls", "yamlls" },
+  ["yaml.helm-values"] = { "helm_ls", "yamlls" },
   ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
   zig = { "zls" },
