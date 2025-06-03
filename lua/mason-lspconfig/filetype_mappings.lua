@@ -148,6 +148,8 @@ return {
   odin = { "ols" },
   opencl = { "opencl_ls" },
   openscad = { "openscad_lsp" },
+  opentofu = { "tofu_ls" },
+  ["opentofu-vars"] = { "tofu_ls" },
   org = { "ltex", "ltex_plus", "textlsp" },
   os = { "bsl_ls" },
   p8 = { "pico8_ls" },
