@@ -18,6 +18,7 @@ return {
   beancount = { "beancount" },
   bib = { "ltex", "ltex_plus", "texlab" },
   bicep = { "bicep" },
+  ["bicep-params"] = { "bicep" },
   blade = { "htmx", "stimulus_ls", "tailwindcss" },
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
