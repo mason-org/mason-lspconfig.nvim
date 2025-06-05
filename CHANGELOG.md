@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.1.0](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.0.0...v2.1.0) (2025-06-05)
+
+
+### Features
+
+* **health:** add healthcheck ([#564](https://github.com/mason-org/mason-lspconfig.nvim/issues/564)) ([d24b3f1](https://github.com/mason-org/mason-lspconfig.nvim/commit/d24b3f1612e53f9d54d866b16bedab51813f2bf1))
+* **health:** add mason version check ([#569](https://github.com/mason-org/mason-lspconfig.nvim/issues/569)) ([67da97f](https://github.com/mason-org/mason-lspconfig.nvim/commit/67da97f8c2fd12d05427bb485ce07ee6418e0a51))
+
+
+### Bug Fixes
+
+* remove omnisharp configuration ([#556](https://github.com/mason-org/mason-lspconfig.nvim/issues/556)) ([c5fba52](https://github.com/mason-org/mason-lspconfig.nvim/commit/c5fba52548ff0722ffef127b0859d761a8118099))
+* rename `volar` to `vue_ls` ([#561](https://github.com/mason-org/mason-lspconfig.nvim/issues/561)) ([828da0e](https://github.com/mason-org/mason-lspconfig.nvim/commit/828da0e8dd132954f36e01a72146b0ddd1860236))
+
+
+### Performance Improvements
+
+* host pre-compiled filetype mappings ([#555](https://github.com/mason-org/mason-lspconfig.nvim/issues/555)) ([1d67304](https://github.com/mason-org/mason-lspconfig.nvim/commit/1d6730459c42f591602500da994f01ae43a97dbc))
+
 ## [2.0.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.32.0...v2.0.0) (2025-05-06)
 
 This release adds support for the new native LSP configuration mechanism (see `vim.lsp.config`) added in Neovim v0.11.
