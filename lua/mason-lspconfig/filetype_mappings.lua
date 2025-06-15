@@ -62,6 +62,7 @@ return {
   erlang = { "elp", "erlangls" },
   eruby = { "emmet_language_server", "emmet_ls", "htmx", "ruby_lsp", "steep", "stimulus_ls", "tailwindcss" },
   fennel = { "fennel_language_server", "fennel_ls" },
+  fish = { "fish_lsp" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
   fortran = { "fortls" },
