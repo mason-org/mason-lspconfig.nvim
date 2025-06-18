@@ -110,7 +110,7 @@ return {
   julia = { "julials" },
   just = { "just" },
   kcl = { "kcl" },
-  kotlin = { "ast_grep", "kotlin_language_server" },
+  kotlin = { "ast_grep", "kotlin_language_server", "kotlin_lsp" },
   leaf = { "htmx", "tailwindcss" },
   less = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "stylelint_lsp", "tailwindcss", "unocss" },
   lhaskell = { "hls" },
