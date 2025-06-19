@@ -89,7 +89,7 @@ return {
   helm = { "helm_ls", "snyk_ls" },
   hlsl = { "slangd" },
   hoon = { "hoon_ls" },
-  html = { "angularls", "antlersls", "ast_grep", "emmet_language_server", "emmet_ls", "harper_ls", "html", "htmx", "ltex", "ltex_plus", "lwc_ls", "stimulus_ls", "stylelint_lsp", "superhtml", "tailwindcss", "unocss" },
+  html = { "angularls", "antlersls", "ast_grep", "biome", "emmet_language_server", "emmet_ls", "harper_ls", "html", "htmx", "ltex", "ltex_plus", "lwc_ls", "stimulus_ls", "stylelint_lsp", "superhtml", "tailwindcss", "unocss" },
   ["html-eex"] = { "htmx", "tailwindcss" },
   ["html.handlebars"] = { "glint" },
   htmlangular = { "angularls", "emmet_language_server", "emmet_ls", "htmx", "tailwindcss" },
