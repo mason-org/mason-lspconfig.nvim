@@ -216,7 +216,7 @@ return {
   tex = { "ltex", "ltex_plus", "texlab", "textlsp", "vale_ls" },
   text = { "ltex", "ltex_plus", "textlsp", "vale_ls" },
   thrift = { "thriftls" },
-  toml = { "dprint", "harper_ls", "taplo" },
+  toml = { "dprint", "harper_ls", "taplo", "tombi" },
   twig = { "htmx", "tailwindcss", "twiggy_language_server" },
   typescript = { "angularls", "ast_grep", "biome", "cssmodules_ls", "denols", "dprint", "ember", "eslint", "glint", "harper_ls", "htmx", "oxlint", "quick_lint_js", "rome", "snyk_ls", "tailwindcss", "ts_ls", "unocss", "vtsls" },
   ["typescript.glimmer"] = { "ember", "glint" },
