@@ -200,15 +200,50 @@ describe("mason-lspconfig.setup() :: feature :: automatic_enable", function()
     )
 end)
 
-describe("mason-lspconfig.setup_handlers() :: deprecation", function()
-    it("should error with helpful message when setup_handlers is called", function()
-        local success, error_message = pcall(mason_lspconfig.setup_handlers)
+describe("mason-lspconfig.setup_handlers() :: backward compatibility", function()
+    before_each(function()
+        local settings = require "mason-lspconfig.settings"
+        settings.set(settings._DEFAULT_SETTINGS)
         
-        assert.is_false(success)
-        assert.is_not_nil(error_message:find("setup_handlers%(%) has been removed in v2%.0%.0"))
-        assert.is_not_nil(error_message:find("automatic_enable"))
-        assert.is_not_nil(error_message:find("Migration steps:"))
-        assert.is_not_nil(error_message:find("Before %(v1%.x%):"))
-        assert.is_not_nil(error_message:find("After %(v2%.0%.0%):"))
+        spy.on(vim, "notify")
+        stub(registry, "get_installed_package_names").returns {
+            "dummy",
+            "dummy2",
+        }
+    end)
+    
+    it("should show deprecation warning when setup_handlers is called", function()
+        local mock_handler = spy.new(function() end)
+        
+        mason_lspconfig.setup_handlers({
+            mock_handler,
+            ["dummylsp"] = mock_handler,
+        })
+        
+        -- Should show deprecation warning
+        assert.spy(vim.notify).was_called_with(
+            match.has_match("setup_handlers.*deprecated"),
+            vim.log.levels.WARN,
+            match._
+        )
+        
+        -- Should still call handlers for installed servers
+        assert.spy(mock_handler).was_called(2)
+        assert.spy(mock_handler).was_called_with("dummylsp")
+        assert.spy(mock_handler).was_called_with("dummy2lsp")
+    end)
+    
+    it("should disable automatic_enable when setup_handlers is used", function()
+        local settings = require "mason-lspconfig.settings"
+        assert.is_true(settings.current.automatic_enable)
+        
+        mason_lspconfig.setup_handlers({ function() end })
+        
+        assert.is_false(settings.current.automatic_enable)
+        assert.spy(vim.notify).was_called_with(
+            match.has_match("Disabling automatic_enable"),
+            vim.log.levels.INFO,
+            match._
+        )
     end)
 end)

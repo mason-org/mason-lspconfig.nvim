@@ -113,31 +113,69 @@ function M.get_mappings()
     return mappings.get_all()
 end
 
----@deprecated Removed in v2.0.0. Use automatic_enable setting instead.
-function M.setup_handlers()
-    local migration_message = [[
-mason-lspconfig.nvim: setup_handlers() has been removed in v2.0.0.
-
-Migration steps:
-1. Remove the setup_handlers() call from your configuration
-2. Servers are now automatically enabled via the 'automatic_enable' setting (default: true)
-3. For custom server configurations, use lspconfig directly after setup:
-
-   Before (v1.x):
-   require("mason-lspconfig").setup_handlers({
-       function(server_name)
-           require("lspconfig")[server_name].setup({})
-       end,
-   })
-
-   After (v2.0.0):
-   require("mason-lspconfig").setup({ automatic_enable = true })
-   -- Configure servers individually:
-   require("lspconfig").lua_ls.setup({ your_config })
-
-See :h mason-lspconfig-settings for more information.]]
-
-    error(migration_message)
+---@deprecated Migrated to work with v2.0.0 automatic_enable. Consider updating your config.
+---@param handlers table<string, function>|table<number, function>
+function M.setup_handlers(handlers)
+    -- Show deprecation warning but continue to work
+    require "mason-lspconfig.notify"(
+        "setup_handlers() is deprecated. Consider migrating to automatic_enable setting. See :h mason-lspconfig-settings",
+        vim.log.levels.WARN
+    )
+    
+    if not handlers then
+        return
+    end
+    
+    -- Disable automatic_enable since we're handling setup manually
+    local current_settings = settings.current
+    if current_settings.automatic_enable ~= false then
+        require "mason-lspconfig.notify"(
+            "Disabling automatic_enable since setup_handlers() is used",
+            vim.log.levels.INFO
+        )
+        settings.set(vim.tbl_extend("force", current_settings, { automatic_enable = false }))
+    end
+    
+    local registry = require "mason-registry"
+    local mappings = require "mason-lspconfig.mappings"
+    
+    -- Get the default handler (index 1) and specific handlers
+    local default_handler = handlers[1]
+    local server_handlers = {}
+    
+    -- Extract server-specific handlers
+    for key, handler in pairs(handlers) do
+        if type(key) == "string" then
+            server_handlers[key] = handler
+        end
+    end
+    
+    -- Function to set up a server
+    local function setup_server(server_name)
+        local handler = server_handlers[server_name] or default_handler
+        if handler then
+            handler(server_name)
+        end
+    end
+    
+    -- Set up currently installed servers
+    local installed_servers = M.get_installed_servers()
+    for _, server_name in ipairs(installed_servers) do
+        setup_server(server_name)
+    end
+    
+    -- Set up servers as they get installed
+    local function on_server_install(pkg)
+        local server_name = mappings.get_mason_map().package_to_lspconfig[pkg.name]
+        if server_name then
+            vim.schedule(function()
+                setup_server(server_name)
+            end)
+        end
+    end
+    
+    registry:off("package:install:success", on_server_install)
+    registry:on("package:install:success", on_server_install)
 end
 
 return M
