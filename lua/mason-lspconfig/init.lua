@@ -113,4 +113,31 @@ function M.get_mappings()
     return mappings.get_all()
 end
 
+---@deprecated Removed in v2.0.0. Use automatic_enable setting instead.
+function M.setup_handlers()
+    local migration_message = [[
+mason-lspconfig.nvim: setup_handlers() has been removed in v2.0.0.
+
+Migration steps:
+1. Remove the setup_handlers() call from your configuration
+2. Servers are now automatically enabled via the 'automatic_enable' setting (default: true)
+3. For custom server configurations, use lspconfig directly after setup:
+
+   Before (v1.x):
+   require("mason-lspconfig").setup_handlers({
+       function(server_name)
+           require("lspconfig")[server_name].setup({})
+       end,
+   })
+
+   After (v2.0.0):
+   require("mason-lspconfig").setup({ automatic_enable = true })
+   -- Configure servers individually:
+   require("lspconfig").lua_ls.setup({ your_config })
+
+See :h mason-lspconfig-settings for more information.]]
+
+    error(migration_message)
+end
+
 return M
