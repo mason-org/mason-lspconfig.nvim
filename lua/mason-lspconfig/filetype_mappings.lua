@@ -3,7 +3,6 @@
 return {
   ["BUILD.bazel"] = { "starlark_rust" },
   OpenFOAM = { "foam_ls" },
-  PKGBUILD = { "pkgbuild_language_server" },
   antlers = { "antlersls" },
   arduino = { "arduino_language_server" },
   asm = { "asm_lsp" },
