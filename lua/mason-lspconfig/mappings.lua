@@ -3,10 +3,15 @@ local registry = require "mason-registry"
 
 local M = {}
 
+local package_specs_cache = nil
+
 function M.get_mason_map()
     ---@type table<string, string>
     local package_to_lspconfig = {}
-    for _, pkg_spec in ipairs(registry.get_all_package_specs()) do
+    if package_specs_cache == nil then
+        package_specs_cache = registry.get_all_package_specs()
+    end
+    for _, pkg_spec in ipairs(package_specs_cache) do
         local lspconfig = vim.tbl_get(pkg_spec, "neovim", "lspconfig")
         if lspconfig then
             package_to_lspconfig[pkg_spec.name] = lspconfig
