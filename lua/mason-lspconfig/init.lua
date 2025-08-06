@@ -31,7 +31,7 @@ function M.setup(config)
         if not platform.is_headless and #settings.current.ensure_installed > 0 then
             require "mason-lspconfig.features.ensure_installed"()
         end
-        if success and #updated_registries > 0 and settings.current.automatic_enable ~= false then
+        if success and updated_registries ~= nil and #updated_registries > 0 and settings.current.automatic_enable ~= false then
             require("mason-lspconfig.features.automatic_enable").enable_all()
         end
         registry.register_package_aliases(_.map(function(server_name)
