@@ -44,7 +44,10 @@ local function enable_server(mason_pkg)
         vim.lsp.config(lspconfig_name, config)
     end
 
-    vim.lsp.enable(lspconfig_name)
+    vim.schedule(function()
+        vim.lsp.enable(lspconfig_name)
+    end)
+
     enabled_servers[lspconfig_name] = true
 end
 
