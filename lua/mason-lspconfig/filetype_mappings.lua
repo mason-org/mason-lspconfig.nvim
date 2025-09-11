@@ -186,7 +186,7 @@ return {
   rust = { "ast_grep", "bacon_ls", "codebook", "dprint", "harper_ls", "rust_analyzer", "unocss" },
   sass = { "emmet_language_server", "emmet_ls", "somesass_ls", "tailwindcss", "unocss" },
   scss = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "somesass_ls", "stylelint_lsp", "tailwindcss", "unocss" },
-  sh = { "bashls" },
+  sh = { "bashls", "harper_ls" },
   shaderslang = { "slangd" },
   slim = { "htmx", "tailwindcss" },
   slint = { "slint_lsp" },
