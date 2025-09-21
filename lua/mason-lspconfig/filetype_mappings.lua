@@ -114,7 +114,7 @@ return {
   libsonnet = { "jsonnet_ls" },
   liquid = { "htmx", "shopify_theme_ls", "tailwindcss", "theme_check" },
   llw = { "lelwel_ls" },
-  lua = { "ast_grep", "codebook", "emmylua_ls", "harper_ls", "lua_ls" },
+  lua = { "ast_grep", "codebook", "emmylua_ls", "harper_ls", "lua_ls", "stylua" },
   luau = { "luau_lsp" },
   mail = { "ltex", "ltex_plus" },
   make = { "autotools_ls" },
