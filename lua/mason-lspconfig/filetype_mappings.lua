@@ -5,7 +5,7 @@ return {
   OpenFOAM = { "foam_ls" },
   antlers = { "antlersls" },
   arduino = { "arduino_language_server" },
-  asciidoc = { "vale_ls" },
+  asciidoc = { "harper_ls", "vale_ls" },
   asm = { "asm_lsp" },
   aspnetcorerazor = { "htmx", "tailwindcss" },
   astro = { "astro", "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "stylelint_lsp", "tailwindcss", "unocss" },
