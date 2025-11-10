@@ -182,6 +182,7 @@ return {
   rmd = { "ltex", "ltex_plus", "r_language_server" },
   rnoweb = { "ltex", "ltex_plus" },
   robot = { "robotframework_ls" },
+  roc = { "roc_ls" },
   roslyn = { "dprint" },
   rst = { "esbonio", "ltex", "ltex_plus", "vale_ls" },
   ruby = { "ast_grep", "codebook", "harper_ls", "rubocop", "ruby_lsp", "solargraph", "sorbet", "standardrb", "steep", "stimulus_ls" },
