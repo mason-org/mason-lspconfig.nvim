@@ -25,6 +25,7 @@ return {
   bzl = { "bzl", "starlark_rust", "starpls" },
   c = { "ast_grep", "clangd", "codebook", "harper_ls" },
   cairo = { "cairo_ls" },
+  cds = { "cds_lsp" },
   clojure = { "clojure_lsp", "harper_ls", "htmx", "tailwindcss" },
   cmake = { "cmake", "harper_ls", "neocmake" },
   cobol = { "cobol_ls" },
