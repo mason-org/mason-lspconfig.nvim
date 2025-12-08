@@ -201,7 +201,7 @@ return {
   sml = { "millet" },
   solidity = { "ast_grep", "solang", "solc", "solidity", "solidity_ls", "solidity_ls_nomicfoundation" },
   spec = { "rpmspec" },
-  sql = { "bqls", "postgres_lsp", "postgres_lsp", "sqlls", "sqls", "sqruff" },
+  sql = { "bqls", "postgres_lsp", "sqlls", "sqls", "sqruff" },
   ss = { "snakeskin_ls" },
   star = { "starlark_rust" },
   stylus = { "tailwindcss", "unocss" },
