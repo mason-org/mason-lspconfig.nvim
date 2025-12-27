@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.1.0...v2.2.0) (2025-12-27)
+
+
+### Features
+
+* **nextflow_ls:** add cmd override for Mason compatibility ([#622](https://github.com/mason-org/mason-lspconfig.nvim/issues/622)) ([1d77bd8](https://github.com/mason-org/mason-lspconfig.nvim/commit/1d77bd86e1c3eaa777010c95dad455b83823f247))
+
 ## [2.1.0](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.0.0...v2.1.0) (2025-07-29)
 
 
