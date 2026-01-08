@@ -210,7 +210,7 @@ return {
   surface = { "elixirls", "expert", "lexical", "nextls" },
   svelte = { "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "svelte", "tailwindcss", "unocss" },
   svg = { "lemminx" },
-  swift = { "ast_grep", "harper_ls" },
+  swift = { "ast_grep", "codebook", "harper_ls" },
   systemd = { "systemd_ls", "systemd_lsp" },
   systemverilog = { "hdl_checker", "svlangserver", "svls", "verible" },
   tcl = { "tclsp" },
@@ -263,6 +263,6 @@ return {
   ["yaml.helm-values"] = { "helm_ls", "yamlls" },
   ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
-  zig = { "zls" },
+  zig = { "codebook", "zls" },
   zir = { "zls" }
 }
