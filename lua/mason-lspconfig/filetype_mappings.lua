@@ -72,6 +72,7 @@ return {
   geom = { "glsl_analyzer", "glslls" },
   gitcommit = { "codebook", "harper_ls", "ltex", "ltex_plus" },
   glsl = { "glsl_analyzer", "glslls" },
+  gn = { "gn_language_server" },
   go = { "ast_grep", "codebook", "golangci_lint_ls", "gopls", "harper_ls", "snyk_ls" },
   gohtml = { "htmx", "tailwindcss" },
   gohtmltmpl = { "htmx", "tailwindcss" },
