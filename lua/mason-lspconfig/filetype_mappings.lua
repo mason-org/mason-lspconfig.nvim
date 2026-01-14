@@ -249,6 +249,7 @@ return {
   vue = { "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "stylelint_lsp", "tailwindcss", "unocss", "vue_ls" },
   ["vue-html"] = { "unocss" },
   vv = { "v_analyzer" },
+  wat = { "wasm_language_tools" },
   wgsl = { "wgsl_analyzer" },
   wxss = { "stylelint_lsp" },
   xdc = { "tclsp" },
