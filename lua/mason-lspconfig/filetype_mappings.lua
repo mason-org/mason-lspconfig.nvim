@@ -66,7 +66,7 @@ return {
   fish = { "fish_lsp" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
-  fortran = { "fortls" },
+  fortran = { "fortitude", "fortls" },
   frag = { "glsl_analyzer", "glslls" },
   fsd = { "facility_language_server" },
   fsharp = { "fsautocomplete" },
