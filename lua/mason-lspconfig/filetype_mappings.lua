@@ -124,7 +124,7 @@ return {
   luau = { "luau_lsp" },
   mail = { "ltex", "ltex_plus" },
   make = { "autotools_ls" },
-  markdown = { "codebook", "dprint", "grammarly", "harper_ls", "htmx", "ltex", "ltex_plus", "markdown_oxide", "marksman", "oxfmt", "prosemd_lsp", "remark_ls", "rumdl", "tailwindcss", "unocss", "vale_ls", "zk" },
+  markdown = { "codebook", "dprint", "grammarly", "harper_ls", "htmx", "ltex", "ltex_plus", "markdown_oxide", "marksman", "mpls", "oxfmt", "prosemd_lsp", "remark_ls", "rumdl", "tailwindcss", "unocss", "vale_ls", "zk" },
   ["markdown.mdx"] = { "marksman" },
   matlab = { "matlab_ls" },
   mcfunction = { "spyglassmc_language_server" },
