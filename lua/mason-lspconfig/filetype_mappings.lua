@@ -207,6 +207,7 @@ return {
   spec = { "rpmspec" },
   sql = { "bqls", "postgres_lsp", "sqlls", "sqls", "sqruff" },
   ss = { "snakeskin_ls" },
+  stan = { "stan_ls" },
   star = { "starlark_rust" },
   stylus = { "tailwindcss", "unocss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },
