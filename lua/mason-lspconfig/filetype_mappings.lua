@@ -12,6 +12,7 @@ return {
   aspnetcorerazor = { "htmx", "tailwindcss" },
   astro = { "astro", "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "oxlint", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   ["astro-markdown"] = { "htmx", "tailwindcss" },
+  autohotkey = { "autohotkey_lsp" },
   automake = { "autotools_ls" },
   awk = { "awk_ls" },
   bash = { "ast_grep", "bashls" },
