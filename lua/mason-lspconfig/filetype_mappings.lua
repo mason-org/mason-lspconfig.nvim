@@ -39,7 +39,7 @@ return {
   cpp = { "ast_grep", "clangd", "harper_ls", "snyk_ls", "snyk_ls" },
   crystal = { "crystalline" },
   cs = { "ast_grep", "csharp_ls", "harper_ls", "omnisharp", "snyk_ls", "snyk_ls" },
-  css = { "ast_grep", "biome", "codebook", "css_variables", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
+  css = { "ast_grep", "biome", "codebook", "css_variables", "csskit", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   cucumber = { "cucumber_language_server" },
   cuda = { "clangd" },
   cue = { "cue", "dagger" },
