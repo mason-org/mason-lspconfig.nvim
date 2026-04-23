@@ -9,7 +9,7 @@ jobs:
     autogenerate:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v6
             - uses: rhysd/action-setup-vim@v1
               with:
                   neovim: true
@@ -20,7 +20,7 @@ jobs:
 
             - name: Create Pull Request
               id: cpr
-              uses: peter-evans/create-pull-request@v4
+              uses: peter-evans/create-pull-request@v8
               with:
                   token: ${{ secrets.PAT }}
                   author: "William Botman <william+bot@redwill.se>"
@@ -35,7 +35,7 @@ jobs:
 
             - name: Enable Pull Request Automerge
               if: steps.cpr.outputs.pull-request-operation == 'created'
-              uses: peter-evans/enable-pull-request-automerge@v2
+              uses: peter-evans/enable-pull-request-automerge@v3
               with:
                   token: ${{ secrets.PAT }}
                   pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
