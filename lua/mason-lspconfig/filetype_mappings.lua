@@ -145,7 +145,7 @@ return {
   nginx = { "nginx_language_server" },
   nickel = { "nickel_ls" },
   nim = { "nim_langserver", "nimls" },
-  nix = { "ast_grep", "harper_ls", "nil_ls", "rnix" },
+  nix = { "ast_grep", "harper_ls", "nil_ls", "rnix", "statix" },
   njk = { "htmx", "tailwindcss" },
   nunjucks = { "htmx", "tailwindcss" },
   objc = { "clangd", "snyk_ls", "snyk_ls" },
