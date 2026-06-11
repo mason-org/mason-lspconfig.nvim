@@ -1,6 +1,5 @@
 return {
-    cmd = { "julia-lsp" },
-    before_init = function(_, config)
+    cmd = function(dispatchers, config)
         local _ = require "mason-core.functional"
         local path = require "mason-core.path"
         local fs = require "mason-core.fs"
@@ -30,10 +29,11 @@ return {
             end
         end
 
-        config.cmd = { "julia-lsp", env_path }
-        config.cmd_env = vim.tbl_extend("keep", config.cmd_env or {}, {
+        local cmd_env = vim.tbl_extend("keep", config.cmd_env or {}, {
             SYMBOL_SERVER = config.symbol_server,
             SYMBOL_CACHE_DOWNLOAD = (config.symbol_cache_download == false) and "0" or "1",
         })
+
+        return vim.lsp.rpc.start({ "julia-lsp", env_path }, dispatchers, { env = cmd_env })
     end,
 }

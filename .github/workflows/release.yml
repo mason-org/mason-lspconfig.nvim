@@ -13,7 +13,7 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v5
+      - uses: google-github-actions/release-please-action@v3
         id: release
         with:
           token: ${{ secrets.PAT }}
