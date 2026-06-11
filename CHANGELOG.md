@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.0](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.2.0...v2.3.0) (2026-06-11)
+
+
+### Features
+
+* add mapping Vespa Language Server ([#676](https://github.com/mason-org/mason-lspconfig.nvim/issues/676)) ([0b278d7](https://github.com/mason-org/mason-lspconfig.nvim/commit/0b278d7f91781675df67239f32e769e83f1b12ac))
+
+
+### Bug Fixes
+
+* **julials:** ensure Julia environment is set before julia-lsp is run ([#674](https://github.com/mason-org/mason-lspconfig.nvim/issues/674)) ([2f8e8bb](https://github.com/mason-org/mason-lspconfig.nvim/commit/2f8e8bb7440f7d326cee1ba5b489532b29d3a35e))
+
 ## [2.2.0](https://github.com/mason-org/mason-lspconfig.nvim/compare/v2.1.0...v2.2.0) (2026-04-23)
 
 
