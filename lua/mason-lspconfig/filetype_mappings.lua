@@ -29,6 +29,8 @@ return {
   bzl = { "bzl", "starlark_rust", "starpls" },
   c = { "ast_grep", "clangd", "codebook", "harper_ls", "snyk_ls", "snyk_ls" },
   ["c.doxygen"] = { "clangd" },
+  c3 = { "c3_lsp" },
+  c3i = { "c3_lsp" },
   cairo = { "cairo_ls" },
   cds = { "cds_lsp" },
   clojure = { "clojure_lsp", "harper_ls", "htmx", "tailwindcss" },
