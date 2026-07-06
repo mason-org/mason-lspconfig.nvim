@@ -23,7 +23,14 @@ function M.setup(config)
     if config then
         settings.set(config)
     end
-
+    
+    if config.handlers ~= nil then
+        require "mason-lspconfig.notify"(
+            "handlers is no longer a supported setting in mason-lspconfig",
+            vim.log.levels.WARN
+        )
+    end
+    
     check_and_notify_bad_setup_order()
 
     local registry = require "mason-registry"
