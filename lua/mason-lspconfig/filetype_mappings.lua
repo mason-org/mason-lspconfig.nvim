@@ -95,6 +95,7 @@ return {
   handlebars = { "ember", "glint", "htmx", "oxfmt", "tailwindcss" },
   haskell = { "ast_grep", "codebook", "harper_ls", "hls" },
   hbs = { "htmx", "tailwindcss", "unocss" },
+  hcl = { "terragrunt_ls" },
   heex = { "dexter", "elixirls", "expert", "htmx", "lexical", "nextls", "tailwindcss" },
   helm = { "helm_ls", "snyk_ls", "snyk_ls" },
   hlsl = { "slangd" },
