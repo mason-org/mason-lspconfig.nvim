@@ -182,7 +182,7 @@ return {
   pug = { "emmet_ls" },
   puppet = { "puppet" },
   purescript = { "purescriptls" },
-  python = { "ast_grep", "basedpyright", "codebook", "djls", "dprint", "harper_ls", "jedi_language_server", "pylsp", "pylyzer", "pyre", "pyrefly", "pyright", "ruff", "snyk_ls", "snyk_ls", "ty", "zuban" },
+  python = { "ast_grep", "basedpyright", "codebook", "djls", "dprint", "harper_ls", "jedi_language_server", "pylsp", "pylyzer", "pyre", "pyrefly", "pyright", "pytest_language_server", "ruff", "snyk_ls", "snyk_ls", "ty", "zuban" },
   qml = { "qmlls" },
   qmljs = { "qmlls" },
   quarto = { "ltex", "ltex_plus", "panache", "r_language_server" },
