@@ -15,7 +15,7 @@ return {
   autohotkey = { "autohotkey_lsp" },
   automake = { "autotools_ls" },
   awk = { "awk_ls" },
-  bash = { "ast_grep", "bashls" },
+  bash = { "ast_grep", "bashls", "shuck" },
   bazelrc = { "bazelrc_lsp" },
   bean = { "beancount" },
   beancount = { "beancount" },
@@ -208,7 +208,7 @@ return {
   scss = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "somesass_ls", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   sd = { "vespa_ls" },
   sdc = { "tclsp" },
-  sh = { "bashls", "harper_ls" },
+  sh = { "bashls", "harper_ls", "shuck" },
   shaderslang = { "slangd" },
   slim = { "htmx", "tailwindcss" },
   slint = { "slint_lsp" },
@@ -281,5 +281,6 @@ return {
   yml = { "spectral" },
   yql = { "vespa_ls" },
   zig = { "codebook", "zls" },
-  zir = { "zls" }
+  zir = { "zls" },
+  zsh = { "shuck" }
 }
