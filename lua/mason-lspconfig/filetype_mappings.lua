@@ -115,6 +115,7 @@ return {
   ["javascript.glimmer"] = { "ember", "glint" },
   javascriptreact = { "ast_grep", "biome", "codebook", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "htmx", "oxfmt", "oxlint", "tailwindcss", "ts_ls", "tsc", "tsgo", "unocss", "vtsls" },
   jinja = { "jinja_lsp" },
+  jjdescription = { "harper_ls" },
   jq = { "jqls" },
   json = { "ast_grep", "biome", "dprint", "jsonls", "oxfmt", "snyk_ls", "snyk_ls", "spectral", "symfony_lsp" },
   ["json.openapi"] = { "vacuum" },
