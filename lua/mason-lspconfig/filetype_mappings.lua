@@ -48,7 +48,7 @@ return {
   cs = { "ast_grep", "csharp_ls", "harper_ls", "omnisharp", "roslyn_ls", "snyk_ls", "snyk_ls" },
   css = { "ast_grep", "biome", "codebook", "css_variables", "csskit", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   cucumber = { "cucumber_language_server" },
-  cuda = { "clangd" },
+  cuda = { "clangd", "clice" },
   cue = { "cue", "dagger" },
   cypher = { "cypher_ls" },
   d = { "serve_d" },
