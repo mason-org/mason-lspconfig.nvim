@@ -158,6 +158,7 @@ return {
   nim = { "nim_langserver", "nimls" },
   nix = { "ast_grep", "harper_ls", "nil_ls", "rnix", "statix" },
   njk = { "htmx", "tailwindcss" },
+  nlp = { "nlpplus_ls" },
   nunjucks = { "htmx", "tailwindcss" },
   objc = { "clangd", "snyk_ls", "snyk_ls" },
   objcpp = { "clangd", "snyk_ls", "snyk_ls" },
