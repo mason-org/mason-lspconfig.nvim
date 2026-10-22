@@ -174,7 +174,7 @@ return {
   os = { "bsl_ls" },
   p8 = { "pico8_ls" },
   pandoc = { "ltex", "ltex_plus" },
-  perl = { "perlnavigator" },
+  perl = { "perl_lsp", "perlnavigator" },
   pest = { "pest_ls" },
   php = { "ast_grep", "codebook", "harper_ls", "htmx", "intelephense", "laravel_ls", "laravel_lsp", "phpactor", "phpantom_lsp", "psalm", "snyk_ls", "snyk_ls", "stimulus_ls", "symfony_lsp", "tailwindcss", "unocss" },
   plaintex = { "ltex", "ltex_plus", "texlab" },
