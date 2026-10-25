@@ -176,7 +176,7 @@ return {
   pandoc = { "ltex", "ltex_plus" },
   perl = { "perl_lsp", "perlnavigator" },
   pest = { "pest_ls" },
-  php = { "ast_grep", "codebook", "harper_ls", "htmx", "intelephense", "laravel_ls", "laravel_lsp", "phpactor", "phpantom_lsp", "psalm", "snyk_ls", "snyk_ls", "stimulus_ls", "symfony_lsp", "tailwindcss", "unocss" },
+  php = { "ast_grep", "codebook", "harper_ls", "htmx", "intelephense", "laravel_ls", "laravel_lsp", "phpactor", "phpantom_lsp", "phptools", "psalm", "snyk_ls", "snyk_ls", "stimulus_ls", "symfony_lsp", "tailwindcss", "unocss" },
   plaintex = { "ltex", "ltex_plus", "texlab" },
   postcss = { "tailwindcss", "unocss" },
   prisma = { "prismals" },
