@@ -26,10 +26,14 @@ local DEFAULT_SETTINGS = {
     automatic_enable = true,
 }
 
+---@class MasonLspconfigUserSettings
+---@field ensure_installed? string[]
+---@field automatic_enable? boolean | string[] | { exclude: string[] }
+
 M._DEFAULT_SETTINGS = DEFAULT_SETTINGS
 M.current = M._DEFAULT_SETTINGS
 
----@param opts MasonLspconfigSettings
+---@param opts MasonLspconfigSettings | MasonLspconfigUserSettings
 function M.set(opts)
     M.current = vim.tbl_deep_extend("force", M.current, opts)
 end
