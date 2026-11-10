@@ -10,7 +10,7 @@ return {
   asciidoc = { "harper_ls", "ltex_plus", "vale_ls" },
   asm = { "asm_lsp" },
   aspnetcorerazor = { "htmx", "tailwindcss" },
-  astro = { "astro", "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "oxlint", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
+  astro = { "astro", "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "oxfmt", "oxlint", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   ["astro-markdown"] = { "htmx", "tailwindcss" },
   autohotkey = { "autohotkey_lsp" },
   automake = { "autotools_ls" },
