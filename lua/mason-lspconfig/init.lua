@@ -18,7 +18,7 @@ local function check_and_notify_bad_setup_order()
     end
 end
 
----@param config MasonLspconfigSettings | nil
+---@param config MasonLspconfigSettings | MasonLspconfigUserSettings | nil
 function M.setup(config)
     if config then
         settings.set(config)
