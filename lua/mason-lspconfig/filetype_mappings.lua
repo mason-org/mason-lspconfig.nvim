@@ -96,6 +96,7 @@ return {
   haml = { "htmx", "tailwindcss", "unocss" },
   handlebars = { "ember", "glint", "htmx", "oxfmt", "tailwindcss" },
   haskell = { "ast_grep", "codebook", "harper_ls", "hls" },
+  haxe = { "haxe_language_server" },
   hbs = { "htmx", "tailwindcss", "unocss" },
   hcl = { "terragrunt_ls" },
   ["hcl.docker-bake"] = { "docker_language_server" },
